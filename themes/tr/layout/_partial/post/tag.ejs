@@ -1,0 +1,9 @@
+<% if (post.tags && post.tags.length) { %>
+  <span class="post-tags">
+    <i class="icon-tags">
+      <% post.tags.forEach(function(tag) { %>
+        <a href="<%- url_for(tag.path) %>" class="post-tag"><%= tag.name %></a>
+      <% }) %>
+    </i>
+  </span>
+<% } %>

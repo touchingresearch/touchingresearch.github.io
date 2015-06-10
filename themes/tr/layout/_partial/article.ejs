@@ -1,0 +1,32 @@
+<div class="post">
+  <div class="post-header">
+    <% if (post.link || post.title) { %>
+      <h2 class="post-title">
+        <%- partial('post/title') %>
+      </h2>
+    <% } %>
+    <p class="post-meta">
+      <% if (!isPage) { %>
+        <%- partial('_partial/post/date', {post: post, date_format: 'YYYY-MM-DD'}) %>
+        <%- partial('_partial/post/category', {post: post}) %>
+        <%- partial('_partial/post/tag', {post: post}) %>
+      <% } %>
+    </p>
+  </div>
+  <div class="post-content">
+    <%- partial('_partial/post/gallery', {post: post}) %>
+    <% if (post.excerpt && index) { %>
+      <%- post.excerpt %>
+      <% if (theme.excerpt_link) { %>
+        <p class="post-excerpt-link">
+          <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+        </p>
+      <% } %>
+    <% } else { %>
+      <%- post.content %>
+    <% } %>
+  </div>
+  <% if (!index) { %>
+    <%- partial('_partial/post/nav', {post: post}) %>
+  <% } %>
+</div>

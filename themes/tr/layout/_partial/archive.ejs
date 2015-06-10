@@ -1,0 +1,27 @@
+<% if (index) { %>
+  <% page.posts.forEach(function(post) { %>
+      <%- partial('article', {post: post, index: true, isPage: false}) %>
+  <% }) %>
+<% } else { %>
+  <% var last; %>
+  <% page.posts.forEach(function(post) { %>
+    <% var year = post.date.year(); %>
+    <% if (last != year) { %>
+      <% if (last == null) { %>
+        <% last = year; %>
+      <% } %>
+      <h1 class="archive-year">
+        <a href="<% url_for('archives/' + year) %>"><%= year %></a>
+      </h1>
+    <% } %>
+    <div class="archive-post">
+      <%- partial('archive-post', {post: post}) %>
+    </div>
+  <% }) %>
+<% } %>
+
+<% if (page.total > 1) { %>
+  <nav id="page-nav">
+    <%- paginator({prev_text: '&laquo; Prev', next_text: 'Next &raquo;'}) %>
+  </nav>
+<% } %>

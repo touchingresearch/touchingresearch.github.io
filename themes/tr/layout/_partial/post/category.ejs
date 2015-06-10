@@ -1,0 +1,9 @@
+<% if (post.categories && post.categories.length) { %>
+  <span class="post-categories">
+    <i class="icon-book">
+      <% post.categories.forEach(function(cateogry) { %>
+        <a href="<% url_for(category.path) %>" class="post-category"><%= category.name %></a>
+      <% }) %>
+    </i>
+  </span>
+<% } %>

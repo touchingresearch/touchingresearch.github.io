@@ -1,0 +1,23 @@
+title: Touching Research # site title
+author: Mandy Tjew A Sin # your name
+description: By Mandy Tjew&hyphen;A&hyphen;Sin # description or subtitle
+email: mltjew@outlook.com # used for gravatar
+
+# if you copy an avatar file to ./source folder,
+# just uncomment the variable below,
+# and replace "avatar.png" to your image name.
+# better to use 48x48 pixels.
+#avatar: avatar.png
+
+# menu buttons in header
+menu:
+  research: /research
+  publications: /publications
+  about: /about
+  archives: /archives
+
+# social links
+twitter: touchingresearch # username, example: saintwinkle
+
+# google analytics, example: UA-12345678-1
+google_analytics:

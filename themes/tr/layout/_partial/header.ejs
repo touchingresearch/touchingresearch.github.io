@@ -1,0 +1,13 @@
+<h1 class="brand-title">
+  <a href="<%- url_for() %>"><%- theme.title %></a>
+</h1>
+<h2 class="brand-tagline"><%- theme.description %></h2>
+<nav class="nav">
+  <ul class="nav-list">
+    <% for (var item in theme.menu) { %>
+      <li class="nav-item">
+        <a href="<%- url_for(theme.menu[item]) %>" class="pure-button"><%= item %></a>
+      </li>
+    <% } %>
+  </ul>
+</nav>

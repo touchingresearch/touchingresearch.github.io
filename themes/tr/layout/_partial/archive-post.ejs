@@ -1,0 +1,21 @@
+<h2 class="archive-post-title">
+  <% if (post.link) { %>
+    <a href="url_for(post.link)"><%= post.title %></a>
+  <% } else { %>
+    <% if (post.title) { %>
+      <a href="url_for(post.path)"><%= post.title %></a>
+    <% } else { %>
+      <a href="url_for(post.path)">(no title)</a>
+    <% } %>
+  <% } %>
+</h2>
+<p class="archive-post-meta">
+  <%- partial('_partial/post/date', {post: post, date_format: 'MM-DD'}) %>
+  <%- partial('_partial/post/category', {post: post}) %>
+  <%- partial('_partial/post/tag', {post: post}) %>
+</p>
+<% if (post.link) { %>
+  <a href="<% url_for(post.link) %>"></a>
+<% } else { %>
+  <a href="<% url_for(post.path) %>"></a>
+<% } %>
