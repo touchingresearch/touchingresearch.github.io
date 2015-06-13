@@ -2,7 +2,7 @@ title: Research
 date: 2015-06-04 22:13:53
 updated: 2015-06-124
 ---
-I have a Bachelor’s degree in Psychology with Research Master’s degrees in both Social & Organisational Psychology and Cognitive Neuroscience. I currently work at the Clinical, Neuro- en Developmental Psychology Department at the VU University, The Netherlands, and I have an interest in all three fields that make up my department. After all, early childhood determines the brain architecture that forms the foundation for health and well-being. Thus, my interests are quite broad. To put it simply, I am interested in any topic that moves me in some way, hence the title ‘Touching Research’. At the moment, the main themes in my research include loneliness, self-esteem, mental health, touch and how people deal with their mortality. These are some of the questions I’m trying to (help) answer with my research:
+I have a Master’s degree in both Social & Organisational Psychology and Cognitive Neuroscience, and currently work at the Clinical, Neuro- en Developmental Psychology Department at the VU University, The Netherlands. I have an interest in all three fields that make up my department. After all, early childhood experiences build the brain architecture that forms the foundation for health and well-being. Thus, my interests are quite broad. To put it simply, I am interested topics that moves me in some way, hence the title ‘Touching Research’. At the moment, the main themes in my research include loneliness, self-esteem, mental health, touch and how people deal with their mortality. These are some of the questions I’m trying to (help) answer with my research:
 
 * How do we prevent mental health problems among vulnerable groups in society?
 
