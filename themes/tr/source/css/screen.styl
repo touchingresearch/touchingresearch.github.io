@@ -29,7 +29,7 @@ a:focus
   margin: 3em auto
 
 .sidebar
-  background: white url(../images/fingerprint.jpg) top center no-repeat
+  background: white url(../images/fingerprint.jpg) top left 40% no-repeat
   background-size: cover
   color: white
   border-bottom: 1px solid lighten(gray, 60%)
@@ -43,15 +43,16 @@ a:focus
   text-transform: uppercase
 
 .brand-title a
-  color: lighten(gray, 65%)
+  color: theme-color
   text-decoration: none
-  text-shadow: 1px 1px 2px darken(gray, 60%)
+  // text-shadow: 1px 1px 2px darken(gray, 60%)
 
 .brand-tagline
   font-weight: 400
   font-size: 1.3em
-  color: white
-  text-shadow: 1px 1px 1px dark-gray
+  color: theme-color
+  // color: hsla(175, 15%, 25%, 1)
+  // text-shadow: 1px 1px 1px dark-gray
 
 .nav-list
   margin: 0
@@ -66,7 +67,8 @@ a:focus
 .nav-item a
   background: light-gray
   // box-shadow: 1px 1px 2px dark-gray
-  color: dark-gray
+  // color: dark-gray
+  color: theme-color
   margin-top: 1em
   margin-left: 0.5em
   letter-spacing: 0.05em
@@ -103,11 +105,13 @@ a:focus
 
 .post-title
   font-size: 2em
-  color: #222
+  // color: #222
+  color: theme-color
   margin-bottom: 0.2em
 
 .post-title a
-  color: #222
+  color: theme-color
+  // color: #222
 
 .post-avatar
   border-radius: 50px
@@ -141,7 +145,7 @@ a:focus
   margin: 0 0.5em 0 0
   padding: 0.15em 0.4em
   color: white
-  background: theme-blue
+  background: theme-color
   font-size: 80%
   border-radius: 3px
 
@@ -422,10 +426,10 @@ a:focus
   content: '\e808'
 
 blockquote
-  background-color: lighten(theme-blue, 80%)
+  background-color: lighten(theme-color, 80%)
   margin: 0
   padding: 0.1em 1em
-  border-left: 5px solid theme-blue
+  border-left: 5px solid theme-color
 
 code
   font-family: Menlo, Monaco, Consolas, monospace, serif
