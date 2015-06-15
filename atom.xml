@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <title><![CDATA[Touching Research]]></title>
+  <subtitle><![CDATA[Experimental Psychology]]></subtitle>
+  <link href="//atom.xml" rel="self"/>
+  <link href="http://touchingresearch.com//"/>
+  <updated>2015-06-13T08:30:32.000Z</updated>
+  <id>http://touchingresearch.com//</id>
+  
+  <author>
+    <name><![CDATA[Mandy Tjew A Sin]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://touchingresearch.com/posts/2015/06/04/hello-world/"/>
+    <id>http://touchingresearch.com/posts/2015/06/04/hello-world/</id>
+    <published>2015-06-04T20:13:53.000Z</published>
+    <updated>2015-06-13T08:30:32.000Z</updated>
+    <content type="html"><![CDATA[<p>Hello world! My name is Mandy Tjew-A-Sin and this is my web page. I will be writing here about topics that interest me. I’m doing a PhD at the VU University Amsterdam, at the Clinical Neuro and Developmental Psychology Department.</p>
+<p>If you’re into RSS feeds, you can follow me <a href="/atom.xml">here</a>. Thanks for reading!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Hello world! My name is Mandy Tjew-A-Sin and this is my web page. I will be writing here about topics that interest me. I’m doing a PhD a]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
