@@ -26,7 +26,7 @@ a:focus {
   margin: 3em auto;
 }
 .sidebar {
-  background: #fafafa url("../images/fingerprint.jpg") top left 40% no-repeat;
+  background: #fafafa url("../images/fingerprint-min.jpg") top left 40% no-repeat;
   background-size: cover;
   color: #fafafa;
   border-bottom: 1px solid #c7c7c7;
