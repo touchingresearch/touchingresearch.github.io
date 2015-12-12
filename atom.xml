@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Experimental Psychology]]></subtitle>
   <link href="//atom.xml" rel="self"/>
   <link href="http://touchingresearch.com//"/>
-  <updated>2015-09-02T11:06:47.000Z</updated>
+  <updated>2015-12-12T21:02:31.000Z</updated>
   <id>http://touchingresearch.com//</id>
   
   <author>
@@ -16,17 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://touchingresearch.com/posts/2015/06/04/hello-world/"/>
-    <id>http://touchingresearch.com/posts/2015/06/04/hello-world/</id>
-    <published>2015-06-04T20:13:53.000Z</published>
-    <updated>2015-09-02T11:06:47.000Z</updated>
-    <content type="html"><![CDATA[<p>Hello world! My name is Mandy Tjew-A-Sin and this is my web page. I will be writing here about my research and topics that interest me. I’m currently doing a PhD at the VU University Amsterdam, at the Clinical Neuro and Developmental Psychology Department. Here is an overview of what I am interested in:</p>
-<p><img src="about/words.svg" alt="Wordle"></p>
-<p>If you’re into RSS feeds, you can follow me <a href="/atom.xml">here</a>. Thanks for reading!</p>
+    <title><![CDATA[Published embodied terror management paper]]></title>
+    <link href="http://touchingresearch.com/posts/2014/02/04/published-embodied-terror-management-paper/"/>
+    <id>http://touchingresearch.com/posts/2014/02/04/published-embodied-terror-management-paper/</id>
+    <published>2014-02-04T21:13:53.000Z</published>
+    <updated>2015-12-12T21:02:31.000Z</updated>
+    <content type="html"><![CDATA[<p>Our paper titled “Embodied terror management: (Simulated) Interpersonal touch alleviates existential concerns among individuals with low self-esteem” was recently <a href="http://pss.sagepub.com/content/25/1/30" target="_blank" rel="external">published in Psychological Science</a>. It is based on some of the research on interpersonal touch that I did during my year-long internship at the VU University together with Sander Koole. I am very pleased that it made it into the world so soon. The research has been covered by a number of websites, some more accurate than others:</p>
+<ul>
+<li>The <a href="http://www.psychologicalscience.org/index.php/news/releases/touch-may-alleviate-existential-fears-for-people-with-low-self-esteem.html" target="_blank" rel="external">news item from the journal</a></li>
+<li><a href="http://www.dailymail.co.uk/femail/article-2509343/Cuddling-teddy-bear-ease-existential-angst-cure-fear-dying-says-new-study.html" target="_blank" rel="external">The Daily Mail</a></li>
+<li>A brief mention in <a href="http://dewerelddraaitdoor.vara.nl/media/304354" target="_blank" rel="external">De Wereld Draait Door (in Dutch)</a></li>
+<li>An <a href="http://www.beblissed.nl/stress-angst-of-werkloos-knuffel-een-teddybeer-knuffeltherapie/" target="_blank" rel="external">interview with Sander (in Dutch)</a></li>
+</ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Hello world! My name is Mandy Tjew-A-Sin and this is my web page. I will be writing here about my research and topics that interest me. I]]>
+    <![CDATA[<p>Our paper titled “Embodied terror management: (Simulated) Interpersonal touch alleviates existential concerns among individuals with low ]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Internship research mentioned in Intermediair Magazine]]></title>
+    <link href="http://touchingresearch.com/posts/2012/01/04/internship-research-mentioned-in-intermediair-magazine/"/>
+    <id>http://touchingresearch.com/posts/2012/01/04/internship-research-mentioned-in-intermediair-magazine/</id>
+    <published>2012-01-04T21:13:53.000Z</published>
+    <updated>2015-12-12T20:41:04.000Z</updated>
+    <content type="html"><![CDATA[<p>The research that I’m working on with Sander Koole at the VU University has found its way into the Dutch magazine Intermediair. It is an issue on ‘troost’, which is Dutch for ‘comfort’. In our research we find that interpersonal touch, but also touching soft stuffed animals, can be very comforting for people with low self-esteem.</p>
+<div class="thumbs"><br><a href="intermediair.jpg"><img src="/posts/2012/01/04/internship-research-mentioned-in-intermediair-magazine/intermediair.jpg" alt="title" title="title"></a><br></div>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>The research that I’m working on with Sander Koole at the VU University has found its way into the Dutch magazine Intermediair. It is an ]]>
     </summary>
     
   </entry>

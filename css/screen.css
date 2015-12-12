@@ -1,7 +1,5 @@
 * {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Lucida, Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 a {
@@ -116,6 +114,30 @@ a:focus {
 }
 .post-content img .mtas {
   -webkit-filter: brightness(50%);
+}
+.post-content .thumbs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin-top: 5px;
+  list-style: none;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+.post-content .thumbs img {
+  padding: 5px;
+  width: auto;
+  height: 200px;
+  margin-top: 0;
+  line-height: 200px;
+  text-align: center;
 }
 .post-meta {
   color: #999;
@@ -244,8 +266,6 @@ a:focus {
   text-decoration: none;
   text-shadow: 0 1px #fff;
   color: #999;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin-top: 3.125em;
   text-align: center;
@@ -333,6 +353,12 @@ a:focus {
 @media screen and (max-width: 30em) {
   #page-nav .page-number {
     display: none;
+  }
+}
+@media screen and (min-width: 80em) {
+  .post-content .thumbs img {
+    height: 300px;
+    line-height: 300px;
   }
 }
 #page-nav .current {
