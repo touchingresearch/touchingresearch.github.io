@@ -134,9 +134,9 @@ a:focus {
 .post-content .thumbs img {
   padding: 5px;
   width: auto;
-  height: 150px;
+  height: 200px;
   margin-top: 0;
-  line-height: 150px;
+  line-height: 200px;
   text-align: center;
 }
 .post-meta {
@@ -357,8 +357,8 @@ a:focus {
 }
 @media screen and (min-width: 80em) {
   .post-content .thumbs img {
-    height: 300px;
-    line-height: 300px;
+    height: 250px;
+    line-height: 250px;
   }
 }
 #page-nav .current {
