@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Experimental Psychology]]></subtitle>
   <link href="//atom.xml" rel="self"/>
   <link href="http://touchingresearch.com//"/>
-  <updated>2016-04-08T07:50:16.000Z</updated>
+  <updated>2016-04-25T08:37:02.000Z</updated>
   <id>http://touchingresearch.com//</id>
   
   <author>
@@ -14,6 +14,21 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Published data paper on touch and the ERN in Data in Brief]]></title>
+    <link href="http://touchingresearch.com/posts/2016/04/22/published-data-paper-on-touch-and-the-ern-in-data-in-brief/"/>
+    <id>http://touchingresearch.com/posts/2016/04/22/published-data-paper-on-touch-and-the-ern-in-data-in-brief/</id>
+    <published>2016-04-22T08:27:17.000Z</published>
+    <updated>2016-04-25T08:37:02.000Z</updated>
+    <content type="html"><![CDATA[<p>The final version of our data paper titled “Data on simulated interpersonal touch, individual differences and the error-related negativity” has been published in Data in Brief, an Open Access journal. The full reference is: Tjew-A-Sin, M., Tops, M., Heslenfeld, D.J., &amp; Koole, S.L. (2016). Data on simulated interpersonal touch, individual differences and the error-related negativity. Data in Brief, 7, 1327–1330. <a href="http://www.sciencedirect.com/science/article/pii/S235234091630230X" target="_blank" rel="external">Click here to check it out.</a></p>
+<p>Abstract: The dataset includes data from the electroencephalogram study reported in our paper: ‘Effects of simulated interpersonal touch and trait intrinsic motivation on the error-related negativity’ (doi:10.1016/j.neulet.2016.01.044) (Tjew-A-Sin et al., 2016) [1]. The data was collected at the psychology laboratories at the Vrije Universiteit Amsterdam in 2012 among a Dutch-speaking student sample. The dataset consists of the measures described in the paper, as well as additional (exploratory) measures including the Five-Factor Personality Inventory, the Connectedness to Nature Scale, the Rosenberg Self-esteem Scale and a scale measuring life stress. The data can be used for replication purposes, meta-analyses, and exploratory analyses, as well as cross-cultural comparisons of touch and/or ERN effects. The authors also welcome collaborative research based on re-analyses of the data. The data described is available at a data repository called the DANS archive: <a href="http://persistent-identifier.nl/?identifier=urn:nbn:nl:ui:13-tzbk-gg" target="_blank" rel="external">http://persistent-identifier.nl/?identifier=urn:nbn:nl:ui:13-tzbk-gg</a>.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>The final version of our data paper titled “Data on simulated interpersonal touch, individual differences and the error-related negativit]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Published research paper on touch and the ERN in Neuroscience Letters]]></title>
