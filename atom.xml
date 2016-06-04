@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Experimental Psychology]]></subtitle>
   <link href="//atom.xml" rel="self"/>
   <link href="http://touchingresearch.com//"/>
-  <updated>2016-04-25T08:37:02.000Z</updated>
+  <updated>2016-06-04T16:41:13.000Z</updated>
   <id>http://touchingresearch.com//</id>
   
   <author>
@@ -14,6 +14,21 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Attended UBVU seminar: Publishing and integrity: is openness the answer?]]></title>
+    <link href="http://touchingresearch.com/posts/2016/06/04/attended-ubvu-seminar-publishing-and-integrity-is-openness-the-answer/"/>
+    <id>http://touchingresearch.com/posts/2016/06/04/attended-ubvu-seminar-publishing-and-integrity-is-openness-the-answer/</id>
+    <published>2016-06-04T16:37:28.000Z</published>
+    <updated>2016-06-04T16:41:13.000Z</updated>
+    <content type="html"><![CDATA[<p>I wrote a post about the <a href="https://touchingresearch.com/posts/2015/12/09/participated-in-phd-course-on-scientific-integrity/">Scientific Integrity PhD course of the VU medical center</a> last December. Related to that course, I recently received an e-mail about the <a href="https://www.nrin.nl/" target="_blank" rel="external">first conference of the Netherlands Research Integrity Network</a>, which is held in Amsterdam. I signed up for it, but may not be able to attend it. Nonetheless, while browsing through their website, I noticed that the VU University Library was organizing a very interesting seminar on publishing and integrity, and more specifically about whether openness and transparancy can decrease research misconduct (such as the use of <a href="https://replicationindex.wordpress.com/2015/01/24/questionable-research-practices-definition-detect-and-recommendations-for-better-practices/" target="_blank" rel="external">Questionable Research Practices</a>) and increase the quality of scientific publications (through Open Access policies) and open peer review. Follow <a href="http://www.vu.nl/nl/nieuws-agenda/agenda/2016/apr-jun/2016-05-24-publishing-and-integrity.aspx" target="_blank" rel="external">this link</a> to see an overview of the topics and speakers.</p>
+<p>Questionable research practices, the importance of preregistration, and the flaws of the peer review system were already familiar topics to me. However, the talk on Open Access publishing provided some very interesting information and helped me understand my own discomfort in paying to openly publish my research. Apparently, charging huge fees for Open Access publishing is an extremely lucrative business model. There are many online articles on the issues surrounding such business models and their effects on the scientific literature. For example, you can start reading <a href="https://scholarlykitchen.sspnet.org/2016/01/06/plos-one-shrinks-by-11-percent/" target="_blank" rel="external">here</a>, <a href="https://scholarlykitchen.sspnet.org/2010/10/12/cascading-peer-review-future-of-open-access/" target="_blank" rel="external">here</a>, or <a href="http://www.nrc.nl/handelsblad/2015/01/10/de-chaos-van-open-access-1454804" target="_blank" rel="external">here (Dutch article)</a>.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>I wrote a post about the <a href="https://touchingresearch.com/posts/2015/12/09/participated-in-phd-course-on-scientific-integrity/">Scie]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Published data paper on touch and the ERN in Data in Brief]]></title>
