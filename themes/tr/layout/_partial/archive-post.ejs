@@ -1,11 +1,11 @@
 <h2 class="archive-post-title">
   <% if (post.link) { %>
-    <a href="url_for(post.link)"><%= post.title %></a>
+    <a href="<% url_for(post.link) %>"><%= post.title %></a>
   <% } else { %>
     <% if (post.title) { %>
-      <a href="url_for(post.path)"><%= post.title %></a>
+      <a href="<% url_for(post.path) %>"><%= post.title %></a>
     <% } else { %>
-      <a href="url_for(post.path)">(no title)</a>
+      <a href="<% url_for(post.path) %>">(no title)</a>
     <% } %>
   <% } %>
 </h2>

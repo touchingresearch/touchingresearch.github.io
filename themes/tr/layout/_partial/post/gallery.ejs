@@ -3,7 +3,7 @@
     <div class="post-gallery-photos">
       <% post.photos.forEach(function(photo) { %>
         <a href="<% url_for(photo) %>" class="post-gallery-img">
-          <img src="url_for(photo)" alt="">
+          <img src="<% url_for(photo) %>" alt="">
         </a>
       <% }) %>
     </div>

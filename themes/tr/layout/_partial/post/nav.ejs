@@ -14,7 +14,7 @@
     <% } %>
 
     <% if (post.next) { %>
-      <a href="url_for(post.next.path)" id="post-nav-older" class="post-nav-link-wrap">
+      <a href="<% url_for(post.next.path) %>" id="post-nav-older" class="post-nav-link-wrap">
         <strong class="post-nav-caption">Older</strong>
         <span class="post-nav-title">
           <% if (post.next.title) { %>
