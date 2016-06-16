@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Experimental Psychology]]></subtitle>
   <link href="//atom.xml" rel="self"/>
   <link href="http://touchingresearch.com//"/>
-  <updated>2016-06-10T18:29:04.000Z</updated>
+  <updated>2016-06-16T16:32:15.000Z</updated>
   <id>http://touchingresearch.com//</id>
   
   <author>
@@ -14,6 +14,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Received NWO Open Access grant (for publication of data paper on touch and the ERN)]]></title>
+    <link href="http://touchingresearch.com/posts/2016/06/16/received-nwo-open-access-grant-for-publication-of-data-paper-on-touch-and-the-ern/"/>
+    <id>http://touchingresearch.com/posts/2016/06/16/received-nwo-open-access-grant-for-publication-of-data-paper-on-touch-and-the-ern/</id>
+    <published>2016-06-16T16:31:20.000Z</published>
+    <updated>2016-06-16T16:32:15.000Z</updated>
+    <content type="html"><![CDATA[<p>Earlier this month, I received an Open Access grant from <a href="http://www.nwo.nl/en" target="_blank" rel="external">NWO</a> (Netherlands Organization for Scientific Research) to cover the publication costs for <a href="https://touchingresearch.com/posts/2016/04/22/published-data-paper-on-touch-and-the-ern-in-data-in-brief/">“Data on simulated interpersonal touch, individual differences and the error-related negativity” in the journal Data in Brief</a>.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Earlier this month, I received an Open Access grant from <a href="http://www.nwo.nl/en" target="_blank" rel="external">NWO</a> (Netherlan]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Some introductions to R Statistics]]></title>
