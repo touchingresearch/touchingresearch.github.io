@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Experimental Psychology]]></subtitle>
   <link href="//atom.xml" rel="self"/>
   <link href="http://touchingresearch.com//"/>
-  <updated>2017-01-25T20:07:59.000Z</updated>
+  <updated>2017-02-21T08:22:43.000Z</updated>
   <id>http://touchingresearch.com//</id>
   
   <author>
@@ -14,6 +14,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Testing the NIRSport by NIRX]]></title>
+    <link href="http://touchingresearch.com/posts/2017/02/20/testing-the-nirsport-by-nirx/"/>
+    <id>http://touchingresearch.com/posts/2017/02/20/testing-the-nirsport-by-nirx/</id>
+    <published>2017-02-20T08:17:01.000Z</published>
+    <updated>2017-02-21T08:22:43.000Z</updated>
+    <content type="html"><![CDATA[<p>For five days in the past month, I’ve been getting together with a few fellow lab members to figure out (and try out!) the brand new NIRSport equipment, which is advertised as a mobile fNIRS system that is suitable for movement studies. A couple of my colleagues already have ambitious plans to run experiments using this equipment in Spring or Fall of this year, perhaps even outside the lab. It is definitely fun to toy with, even though we are constantly problem-solving at this early stage. Luckily, the experienced tech personnel help us experiment with possible solutions. For instance, we’ve been able to tweak the caps a bit to minimize pain and discomfort for participants who need to wear the device for half an hour or longer. We’ve also tested the system on every hair color, and dense black hair is definitely the biggest challenge for getting good signal quality. Our most promising solution for that recurring problem is to look into <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342194/" target="_blank" rel="external">brush-like optodes that other fNIRS groups have had good results with</a>. I will leave the equipment be for now, and start focusing on my writing and publishing again. If everything works out with the NIRSport, the team should be able to run some fun experiments fairly soon.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>For five days in the past month, I’ve been getting together with a few fellow lab members to figure out (and try out!) the brand new NIRS]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Received FGB Talent Fund to visit the University of Arizona]]></title>
