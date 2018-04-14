@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel='alternate' type='application/rss+xml' title='RSS' href='/atom.xml'>
+<title>Touching Research</title>
+<link rel="stylesheet" href="/css/pure-min.css">
+<link rel="stylesheet" href="/css/grids-responsive-min.css">
+<link rel="stylesheet" href="/css/screen.css">
+
+</head>
+<body>
+  <div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+      <div class="header">
+        <h1 class="brand-title">
+  <a href="/">Touching Research</a>
+</h1>
+<h2 class="brand-tagline">By Mandy Tjew&hyphen;A&hyphen;Sin</h2>
+<nav class="nav">
+  <ul class="nav-list">
+    
+      <li class="nav-item">
+        <a href="/about" class="pure-button">about</a>
+      </li>
+    
+      <li class="nav-item">
+        <a href="/research" class="pure-button">research</a>
+      </li>
+    
+      <li class="nav-item">
+        <a href="/publications" class="pure-button">publications</a>
+      </li>
+    
+      <li class="nav-item">
+        <a href="/archives" class="pure-button">archives</a>
+      </li>
+    
+  </ul>
+</nav>
+
+      </div>
+    </div>
+    <div class="content pure-u-1 pure-u-md-3-4">
+      <div class="posts">
+        <div class="post">
+  <div class="post-header">
+    
+      <h2 class="post-title">
+        
+  
+    
+      My journey to running coupled oscillator models in Tucson, Arizona
+    
+  
+
+
+      </h2>
+    
+    <p class="post-meta">
+      
+        <span class="post-date">
+  May 2nd, 2017
+</span>
+
+        
+
+        
+
+      
+    </p>
+  </div>
+  <div class="post-content">
+    
+
+    
+      <p>It’s been a month since my arrival in Tucson, Arizona to work on the ECG data that I collected for the hyperscanning study at University of Tuebingen, Germany. I overestimated the quality of the data and underestimated the amount of work… After a full month of constant struggling with the data and just a week or two before my departure, I managed just today to get the data cleaned and in the proper format and structure for running the coupled oscillator models. I’m very excited! There is much more to be done, but I’m starting to see some end to it. I’ll describe some of the software I used to get where I am.</p>
+<p>My data was recorded with <a href="https://www.brainproducts.com/productdetails.php?id=17&amp;tab=3" target="_blank" rel="noopener">Brainvision Analyzer</a>, and the raw data was therefore in .eeg, .vhdr and .vmrk  format. I used the <a href="https://biosig.sourceforge.net/" target="_blank" rel="noopener">Biosig</a> extension of <a href="https://sccn.ucsd.edu/eeglab/" target="_blank" rel="noopener">EEGlab</a>, a toolbox in Matlab, to read the .vhdr files and save them in .EDF format. I then used <a href="https://www.teuniz.net/edfbrowser/" target="_blank" rel="noopener">EDFbrowser</a> to filter the data and export to ASCII. I tried using <a href="http://www.kubios.com/" target="_blank" rel="noopener">Kubios</a> to create the IBI series but their Standard HRV product was too limited in its functionality to be useful to me. Moreover, I needed my IBI in a time series to be able to line up the data points of the dyad pairs. So I switched to <a href="https://jallen.faculty.arizona.edu/content/qrstool-and-cmetx-software-calculating-metrics-cardiac-variability" target="_blank" rel="noopener">QRSTool</a> to painstakingy mark heart beats by hand, although this did allow me to use almost 100% of the data in the end. This part took the longest by far, and I spent two weeks full-time doing this as accurately as possible. I then used the <a href="https://jallen.faculty.arizona.edu/content/qrstool-and-cmetx-software-calculating-metrics-cardiac-variability" target="_blank" rel="noopener">CMetX</a> software to calculate the IBI time series, interpolated at 10Hz to keep the data as continuous as possible. Finally, I used Excel to to put together the ‘monster’ datafile that we could use for modeling. A very dedicated young man is working with Prof. Butler to create an R Package that can do all the calculating and modeling for us. It’s a work in progress but a great project with lots of potential. Check it out <a href="https://github.com/DevinBayly/Remofiles" target="_blank" rel="noopener">here</a>. Meanwhile, we will use Matlab code to do the plotting. It’s already been quite the journey and learning process… with even more exciting discoveries ahead! </p>
+<div class="thumbs"><br><a href="/posts/2017/05/02/my-journey-to-running-coupled-oscillator-models-in-tucson-arizona/view_of_tucson.jpg" title="Sabino Canyon in Tucson"><img src="/posts/2017/05/02/my-journey-to-running-coupled-oscillator-models-in-tucson-arizona/view_of_tucson.jpg"></a><br></div>
+
+    
+  </div>
+  
+    
+  
+</div>
+
+
+      </div>
+      <div class="footer">
+        <div class="social-link">
+  <div class="copyright">
+    Touching Research is written by <a href="/about" alt="Mandy Tjew A Sin">Mandy Tjew A Sin</a>, <br/>licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" alt="Creative Commons Attribution 4.0 International License">CCA4 License</a> and designed by <a href="https://twitter.com/svdb" alt="@svdb">@svdb</a>.
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+  <script src="/js/script.js"></script>
+</body>
+</html>
